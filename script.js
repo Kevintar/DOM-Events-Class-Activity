@@ -145,12 +145,37 @@ q6Bth.addEventListener('click', displayName2);
 
 // 7.create a list of hobbies
 //Selectors
-
+let btnHobbies = document.querySelector('#btnHobbies');
 /*Function {
   //for loop
 }*/
 
+  
+ /* function loopHobbies(){
+    for (i=1;i<=3;i++)    {
+    document.getElementById(`hobbies`).innerHTML = prompt("Please enter your Hobbies<br>")}
+    i++;    
+}*/
+function listHobbies(){
+  document.getElementById(`hobbies1`).innerHTML = prompt("Please enter your 1st Hobbies<br>")
+  document.getElementById(`hobbies2`).innerHTML = prompt("Please enter your 2nd Hobbies<br>")
+  document.getElementById(`hobbies3`).innerHTML = prompt("Please enter your 3rd Hobbies<br>")
+}
 //Call the event
+btnHobbies.addEventListener('click', listHobbies);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 8. Display a profile card from an object
 //Object
